@@ -3,6 +3,9 @@
 //  Copyright (c) 2013 Charles Parnot. All rights reserved.
 
 
+#import <Foundation/Foundation.h>
+
+
 extern NSString * const ASCIIContextShapeIndex;
 extern NSString * const ASCIIContextFillColor;
 extern NSString * const ASCIIContextStrokeColor;
