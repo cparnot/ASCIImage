@@ -52,6 +52,8 @@
 		5642554817AD2C14001C95DA /* PARTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARTestCase.h; sourceTree = "<group>"; };
 		5642554917AD2C14001C95DA /* PARTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARTestCase.m; sourceTree = "<group>"; };
 		5651A58217AD3DBC003E455E /* fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fixtures; path = Tests/fixtures; sourceTree = SOURCE_ROOT; };
+		56993BF21AB75AF6005F90DC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		56993BF31AB75AFE005F90DC /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		56BB37381758A53900BDF2AF /* ASCIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASCIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56BB373B1758A53900BDF2AF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		56BB373E1758A53900BDF2AF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -132,6 +134,8 @@
 		56BB372F1758A53900BDF2AF = {
 			isa = PBXGroup;
 			children = (
+				56993BF21AB75AF6005F90DC /* README.md */,
+				56993BF31AB75AFE005F90DC /* LICENSE */,
 				56583CD117840BFC00CA6C88 /* Core */,
 				56BB375E1758A53A00BDF2AF /* Tests */,
 				56BB37411758A53900BDF2AF /* OSX */,
