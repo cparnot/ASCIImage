@@ -4,10 +4,10 @@
 
 ## Useful links
 
-* ASCIImage reference site: [http://asciimage.org](asciimage.org)
-* Original blog post presenting ASCIImage: [http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/](Replacing Photoshop with NSString)
-* Slides from the presentation of ASCIImage at NSConference 7: [http://cocoamine.net/blog/2015/03/21/asciimage-slides-and-editor/][ASCCImage slides and editor]
-* ASCIImage Super Studio: [https://github.com/mz2/ASCIImage-Super-Studio](source on Github)
+* ASCIImage reference site: [asciimage.org](http://asciimage.org)
+* Original blog post presenting ASCIImage: [Replacing Photoshop with NSString](http://cocoamine.net/blog/2015/03/20/replacing-photoshop-with-nsstring/)
+* Slides from the presentation of ASCIImage at NSConference 7: [ASCCImage slides and editor](http://cocoamine.net/blog/2015/03/21/asciimage-slides-and-editor/)
+* ASCIImage Super Studio: [source on Github](https://github.com/mz2/ASCIImage-Super-Studio)
 * For ASCII art lovers: [MonoDraw](http://monodraw.helftone.com) (not affiliated with ASCIImage; just an awesome app that I like)
 
 ## FAQs
@@ -26,7 +26,9 @@ The idea and initial implementation was mostly a one-day hack. But I did refine 
 
 #### What apps are using ASCIImage?
 
-Please let me know if you use ASCIImage in a shipping app, and I'll add it to the list here. For now, I only know of [Findings](http://findingsapp.com) (disclaimer: I, the author of ASCIImage, makes a living from Findings).
+Please let me know if you use ASCIImage in a shipping app, and I'll add it to the list here.
+
+For now, I only know of [Findings](http://findingsapp.com) (disclaimer: I, the author of ASCIImage, makes a living from Findings).
 
 #### Why not just use SVG?
 
