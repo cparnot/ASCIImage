@@ -117,6 +117,11 @@
      }];
 }
 
+- (void)testASCIIImage11
+{
+    [self _testFixtureWithName:@"fixture11"];
+}
+
 - (PARImage *)deletionImage
 {
     NSArray *asciiRep =
