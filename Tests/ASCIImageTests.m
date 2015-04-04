@@ -238,7 +238,7 @@
     CGFloat pixelDiff = [actualImagePNG pixelDifferenceWithImage:expectedImage];
     if (expectedImage == nil || (pixelDiff > 0.05))
     {
-        XCTAssertTrue(NO, @"Expected image is different from actual image for fixture with name %@ (pixel diff = %@", expectedImageFileName, @(pixelDiff));
+        XCTAssertTrue(NO, @"Expected image is different from actual image for fixture with name %@: pixel diff = %@", expectedImageFileName, @(pixelDiff));
         if (actualImagePNGData)
         {
             [self createAndShowFileWithData:actualImagePNGData name:expectedImageFileName extension:@"png"];
@@ -303,9 +303,11 @@
     XCTAssertTrue(tifpngDiff < 0.05, @"PNG and TIF images have a pixel-diff = %@, but should be the same for file name %@", @(tifpngDiff), expectedImageFileName);
     
     // compare images
-    if (!expectedImagePNG || ![actualImageFromPNG isPixelEqualToImage:expectedImagePNG])
+    CGFloat pixelDiff = [actualImageFromPNG pixelDifferenceWithImage:expectedImagePNG];
+    if (expectedImagePNG == nil || (pixelDiff > 0.05))
     {
-        XCTAssertTrue(NO, @"Expected image is different from actual image for fixture with name %@", expectedImageFileName);
+        XCTAssertTrue(NO, @"Expected image is different from actual image for fixture with name %@: pixel diff = %@", expectedImageFileName, @(pixelDiff));
+
         if (pngData)
         {
             [self createAndShowFileWithData:pngData name:expectedImageFileName extension:@"png"];
