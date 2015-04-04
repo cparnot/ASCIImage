@@ -473,7 +473,7 @@ NSString * const ASCIIContextShouldAntialias    = @"ASCIIContextShouldAntialias"
         {
             [fillColor setFill];
             [path fill];
-            if (shape.ellipse == NO && strokeColor == nil)
+            if (strokeColor == nil)
             {
                 path.lineWidth = shouldAntialias ? 1.0 : sqrtf(2.0)/2.0;
                 [fillColor setStroke];
@@ -547,7 +547,7 @@ NSString * const ASCIIContextShouldAntialias    = @"ASCIIContextShouldAntialias"
                   {
                       [fillColor setFill];
                       [path fill];
-                      if (shape.ellipse == NO && strokeColor == nil)
+                      if (strokeColor == nil)
                       {
                           path.lineWidth = shouldAntialias ? 1.0 : sqrtf(2.0)/2.0;
                           [fillColor setStroke];
@@ -635,6 +635,7 @@ NSString * const ASCIIContextShouldAntialias    = @"ASCIIContextShouldAntialias"
         }
         enclosingRect.size.width  += 1.0;
         enclosingRect.size.height += 1.0;
+        enclosingRect = CGRectInset(enclosingRect, 0.5, 0.5);
         return [PARBezierPath bezierPathWithOvalInRect:enclosingRect];
     }
     
