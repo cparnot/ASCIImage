@@ -1,0 +1,10 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :osx, '10.9'
+link_with 'ASCIImage', 'ASCIImageTests' 
+pod "ASCIImage", :path => "../"
+
+platform :ios, '8.1'
+link_with 'ASCIIImage-iOS', 'ASCIIImage-iOSTests'
+pod "ASCIImage", :path => "../"
+
