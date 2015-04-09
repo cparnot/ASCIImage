@@ -39,8 +39,16 @@ For now, I only know of [Findings](http://findingsapp.com) (disclaimer: I, the a
 
 Sigh.
 
-
 ## Documentation
+
+### Installation
+
+ASCIImage is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "ASCIImage"
+```
 
 #### Characters and Pixels
 
@@ -218,15 +226,6 @@ And here are the keys for the dictionary context:
     extern NSString * const ASCIIContextShouldAntialias;
 
 Note that some of these options are in fact applied to the Bezier paths (line width, should close), while others are applied to the actual graphic context. The antialiasing option can alter both. ASCIImage is doing a few things behind the scenes to keep the illusion going.
-
-## Installation
-
-ASCIImage is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
-
-```ruby
-pod "ASCIImage"
-```
 
 ## Author
 
