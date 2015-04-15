@@ -4,6 +4,14 @@
 
 
 #import <XCTest/XCTest.h>
+// iOS
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+
+// Mac
+#elif TARGET_OS_MAC
+#import <Cocoa/Cocoa.h>
+#endif
 
 @interface PARTestCase : XCTestCase
 

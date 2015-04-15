@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09BC26C98D9F957EADA9A9D9 /* libPods-ASCIIImage-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D29854C536E2CECB1F3AB7 /* libPods-ASCIIImage-iOS.a */; };
 		1104D92C1AD6E69C0045BC81 /* ASCIImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104D8A11AD6E69C0045BC81 /* ASCIImageTests.m */; };
 		1104D92D1AD6E69C0045BC81 /* ASCIImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104D8A11AD6E69C0045BC81 /* ASCIImageTests.m */; };
 		1104D92E1AD6E69C0045BC81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1104D8A21AD6E69C0045BC81 /* InfoPlist.strings */; };
@@ -19,20 +20,27 @@
 		1104DA3B1AD6E69C0045BC81 /* PARTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1104D92B1AD6E69C0045BC81 /* PARTestCase.m */; };
 		1104DA3D1AD6E6AD0045BC81 /* fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 1104DA3C1AD6E6AD0045BC81 /* fixtures */; };
 		1104DA3E1AD6E6AD0045BC81 /* fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 1104DA3C1AD6E6AD0045BC81 /* fixtures */; };
-		112997901AD61CC500CFAFDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 112997791AD61CC500CFAFDE /* AppDelegate.m */; };
-		112997931AD61CC500CFAFDE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1129977F1AD61CC500CFAFDE /* Images.xcassets */; };
-		112997951AD61CC500CFAFDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 112997811AD61CC500CFAFDE /* main.m */; };
-		112997961AD61CC500CFAFDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 112997831AD61CC500CFAFDE /* ViewController.m */; };
+		1120FC601ADDDB180034DDFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120FC551ADDDB180034DDFB /* AppDelegate.m */; };
+		1120FC611ADDDB180034DDFB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC571ADDDB180034DDFB /* LaunchScreen.xib */; };
+		1120FC621ADDDB180034DDFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC591ADDDB180034DDFB /* Main.storyboard */; };
+		1120FC631ADDDB180034DDFB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC5B1ADDDB180034DDFB /* Images.xcassets */; };
+		1120FC651ADDDB180034DDFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120FC5D1ADDDB180034DDFB /* main.m */; };
+		1120FC661ADDDB180034DDFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120FC5F1ADDDB180034DDFB /* ViewController.m */; };
+		1120FC9F1ADDE1760034DDFB /* ASCIImage-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC941ADDE1760034DDFB /* ASCIImage-Info.plist */; };
+		1120FCA01ADDE1760034DDFB /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC961ADDE1760034DDFB /* Credits.rtf */; };
+		1120FCA11ADDE1760034DDFB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC981ADDE1760034DDFB /* InfoPlist.strings */; };
+		1120FCA21ADDE1760034DDFB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1120FC9A1ADDE1760034DDFB /* MainMenu.xib */; };
+		1120FCA31ADDE1760034DDFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120FC9C1ADDE1760034DDFB /* main.m */; };
+		1120FCA41ADDE1760034DDFB /* PARAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1120FC9E1ADDE1760034DDFB /* PARAppDelegate.m */; };
 		112997BC1AD61E4900CFAFDE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		112997BE1AD61E4900CFAFDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		112997D01AD61FB100CFAFDE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		112997D21AD61FB100CFAFDE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		112998611AD6215000CFAFDE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1129977B1AD61CC500CFAFDE /* LaunchScreen.xib */; };
-		112998621AD6215000CFAFDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1129977D1AD61CC500CFAFDE /* Main.storyboard */; };
-		154B809EA7F356F6C6688829 /* libPods-ASCIImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39257CAAF924643073B305AF /* libPods-ASCIImage.a */; };
-		5A90357A05AB2B7D4081590F /* libPods-ASCIIImage-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8494755417B6601CADEFEC06 /* libPods-ASCIIImage-iOS.a */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6BE968F394D85DE3414DD9A2 /* libPods-ASCIIImage-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72D29854C536E2CECB1F3AB7 /* libPods-ASCIIImage-iOS.a */; };
+		713EAB06465A21194DF86FED /* libPods-ASCIImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBAFD3334B8B20266228E67 /* libPods-ASCIImage.a */; };
+		80CFB772109B2F84B2C6D88B /* libPods-ASCIImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BBAFD3334B8B20266228E67 /* libPods-ASCIImage.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +61,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01623D994116D2F1ADACE37F /* Pods-ASCIIImage-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIIImage-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIIImage-iOS/Pods-ASCIIImage-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		1104D89E1AD637650045BC81 /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
 		1104D8A11AD6E69C0045BC81 /* ASCIImageTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASCIImageTests.m; sourceTree = "<group>"; };
 		1104D8A31AD6E69C0045BC81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -62,31 +69,29 @@
 		1104D92A1AD6E69C0045BC81 /* PARTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARTestCase.h; sourceTree = "<group>"; };
 		1104D92B1AD6E69C0045BC81 /* PARTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARTestCase.m; sourceTree = "<group>"; };
 		1104DA3C1AD6E6AD0045BC81 /* fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fixtures; sourceTree = "<group>"; };
-		112997781AD61CC500CFAFDE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		112997791AD61CC500CFAFDE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1129977A1AD61CC500CFAFDE /* ASCIImage-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASCIImage-iOS-Prefix.pch"; sourceTree = "<group>"; };
-		1129977C1AD61CC500CFAFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1129977E1AD61CC500CFAFDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1129977F1AD61CC500CFAFDE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		112997801AD61CC500CFAFDE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		112997811AD61CC500CFAFDE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		112997821AD61CC500CFAFDE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		112997831AD61CC500CFAFDE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		112997851AD61CC500CFAFDE /* ASCIImage-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ASCIImage-Info.plist"; sourceTree = "<group>"; };
-		112997861AD61CC500CFAFDE /* ASCIImage-OSX-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASCIImage-OSX-Prefix.pch"; sourceTree = "<group>"; };
-		112997881AD61CC500CFAFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1129978A1AD61CC500CFAFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1129978C1AD61CC500CFAFDE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1129978D1AD61CC500CFAFDE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1129978E1AD61CC500CFAFDE /* PARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARAppDelegate.h; sourceTree = "<group>"; };
-		1129978F1AD61CC500CFAFDE /* PARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARAppDelegate.m; sourceTree = "<group>"; };
+		1120FC541ADDDB180034DDFB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1120FC551ADDDB180034DDFB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1120FC581ADDDB180034DDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1120FC5A1ADDDB180034DDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1120FC5B1ADDDB180034DDFB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1120FC5C1ADDDB180034DDFB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1120FC5D1ADDDB180034DDFB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1120FC5E1ADDDB180034DDFB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1120FC5F1ADDDB180034DDFB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1120FC7B1ADDDD560034DDFB /* libPods-ASCIImage-ASCIImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ASCIImage-ASCIImage.a"; path = "../../../../../Library/Developer/Xcode/DerivedData/ASCIImage-ggqqbihzypkwqocjisdpfqscexcx/Build/Products/Debug/libPods-ASCIImage-ASCIImage.a"; sourceTree = "<group>"; };
+		1120FC8F1ADDDE370034DDFB /* libPods-ASCIIImage-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ASCIIImage-iOS.a"; path = "Pods/../build/Debug-iphoneos/libPods-ASCIIImage-iOS.a"; sourceTree = "<group>"; };
+		1120FC941ADDE1760034DDFB /* ASCIImage-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ASCIImage-Info.plist"; sourceTree = "<group>"; };
+		1120FC971ADDE1760034DDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1120FC991ADDE1760034DDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1120FC9B1ADDE1760034DDFB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1120FC9C1ADDE1760034DDFB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1120FC9D1ADDE1760034DDFB /* PARAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PARAppDelegate.h; sourceTree = "<group>"; };
+		1120FC9E1ADDE1760034DDFB /* PARAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PARAppDelegate.m; sourceTree = "<group>"; };
 		112997C71AD61E4900CFAFDE /* ASCIImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASCIImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1129985D1AD61FB100CFAFDE /* ASCIImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASCIImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		112998631AD630F000CFAFDE /* libPods-ASCIImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-ASCIImage.a"; path = "Pods/../build/Debug-iphoneos/libPods-ASCIImage.a"; sourceTree = "<group>"; };
 		112998651AD630FF00CFAFDE /* libPods.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libPods.a; path = "Pods/../build/Debug-iphoneos/libPods.a"; sourceTree = "<group>"; };
-		2A3B001E45DDA316889907A2 /* Pods-ASCIIImage-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIIImage-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIIImage-iOS/Pods-ASCIIImage-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		2CEEDA58B3FDF917988B299F /* Pods-ASCIImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage.debug.xcconfig"; sourceTree = "<group>"; };
-		39257CAAF924643073B305AF /* libPods-ASCIImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASCIImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DF47F1F0759B714A49ACBFE /* Pods-ASCIIImage-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIIImage-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIIImage-iOS/Pods-ASCIIImage-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ASCIIImage-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ASCIIImage-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,9 +99,12 @@
 		6003F5AE195388D20070C39A /* ASCIIImage-iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ASCIIImage-iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6AD2FFE48414D8033FF9FD0E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		8494755417B6601CADEFEC06 /* libPods-ASCIIImage-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASCIIImage-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72D29854C536E2CECB1F3AB7 /* libPods-ASCIIImage-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASCIIImage-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		80CC167A5A3A40E1A42E8C54 /* Pods-ASCIImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage.debug.xcconfig"; sourceTree = "<group>"; };
+		9BBAFD3334B8B20266228E67 /* libPods-ASCIImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASCIImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B78CED3844B0A222177F9ACE /* ASCIImage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASCIImage.podspec; path = ../ASCIImage.podspec; sourceTree = "<group>"; };
-		C2CA2200C071E301E4E6200B /* Pods-ASCIImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage.release.xcconfig"; sourceTree = "<group>"; };
+		C838657DC51A0460E078E1A5 /* Pods-ASCIIImage-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIIImage-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIIImage-iOS/Pods-ASCIIImage-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E4B1A2C0B96A69ABFC241A56 /* Pods-ASCIImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASCIImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage.release.xcconfig"; sourceTree = "<group>"; };
 		E83EE219DD0801D5D8A801AF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -107,6 +115,7 @@
 			files = (
 				112997BC1AD61E4900CFAFDE /* CoreGraphics.framework in Frameworks */,
 				112997BE1AD61E4900CFAFDE /* Foundation.framework in Frameworks */,
+				80CFB772109B2F84B2C6D88B /* libPods-ASCIImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +125,7 @@
 			files = (
 				112997D01AD61FB100CFAFDE /* XCTest.framework in Frameworks */,
 				112997D21AD61FB100CFAFDE /* Foundation.framework in Frameworks */,
-				154B809EA7F356F6C6688829 /* libPods-ASCIImage.a in Frameworks */,
+				713EAB06465A21194DF86FED /* libPods-ASCIImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09BC26C98D9F957EADA9A9D9 /* libPods-ASCIIImage-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,7 +143,7 @@
 			files = (
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5A90357A05AB2B7D4081590F /* libPods-ASCIIImage-iOS.a in Frameworks */,
+				6BE968F394D85DE3414DD9A2 /* libPods-ASCIIImage-iOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,36 +165,36 @@
 			path = ../Tests;
 			sourceTree = "<group>";
 		};
-		112997771AD61CC500CFAFDE /* App-iOS */ = {
+		1120FC531ADDDB180034DDFB /* App-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				112997781AD61CC500CFAFDE /* AppDelegate.h */,
-				112997791AD61CC500CFAFDE /* AppDelegate.m */,
-				1129977A1AD61CC500CFAFDE /* ASCIImage-iOS-Prefix.pch */,
-				1129977B1AD61CC500CFAFDE /* LaunchScreen.xib */,
-				1129977D1AD61CC500CFAFDE /* Main.storyboard */,
-				1129977F1AD61CC500CFAFDE /* Images.xcassets */,
-				112997801AD61CC500CFAFDE /* Info.plist */,
-				112997811AD61CC500CFAFDE /* main.m */,
-				112997821AD61CC500CFAFDE /* ViewController.h */,
-				112997831AD61CC500CFAFDE /* ViewController.m */,
+				1120FC541ADDDB180034DDFB /* AppDelegate.h */,
+				1120FC551ADDDB180034DDFB /* AppDelegate.m */,
+				1120FC571ADDDB180034DDFB /* LaunchScreen.xib */,
+				1120FC591ADDDB180034DDFB /* Main.storyboard */,
+				1120FC5B1ADDDB180034DDFB /* Images.xcassets */,
+				1120FC5C1ADDDB180034DDFB /* Info.plist */,
+				1120FC5D1ADDDB180034DDFB /* main.m */,
+				1120FC5E1ADDDB180034DDFB /* ViewController.h */,
+				1120FC5F1ADDDB180034DDFB /* ViewController.m */,
 			);
-			path = "App-iOS";
+			name = "App-iOS";
+			path = "../../App-iOS";
 			sourceTree = "<group>";
 		};
-		112997841AD61CC500CFAFDE /* App-OSX */ = {
+		1120FC931ADDE1760034DDFB /* App-OSX */ = {
 			isa = PBXGroup;
 			children = (
-				112997851AD61CC500CFAFDE /* ASCIImage-Info.plist */,
-				112997861AD61CC500CFAFDE /* ASCIImage-OSX-Prefix.pch */,
-				112997871AD61CC500CFAFDE /* Credits.rtf */,
-				112997891AD61CC500CFAFDE /* InfoPlist.strings */,
-				1129978B1AD61CC500CFAFDE /* MainMenu.xib */,
-				1129978D1AD61CC500CFAFDE /* main.m */,
-				1129978E1AD61CC500CFAFDE /* PARAppDelegate.h */,
-				1129978F1AD61CC500CFAFDE /* PARAppDelegate.m */,
+				1120FC941ADDE1760034DDFB /* ASCIImage-Info.plist */,
+				1120FC961ADDE1760034DDFB /* Credits.rtf */,
+				1120FC981ADDE1760034DDFB /* InfoPlist.strings */,
+				1120FC9A1ADDE1760034DDFB /* MainMenu.xib */,
+				1120FC9C1ADDE1760034DDFB /* main.m */,
+				1120FC9D1ADDE1760034DDFB /* PARAppDelegate.h */,
+				1120FC9E1ADDE1760034DDFB /* PARAppDelegate.m */,
 			);
-			path = "App-OSX";
+			name = "App-OSX";
+			path = "../../App-OSX";
 			sourceTree = "<group>";
 		};
 		6003F581195388D10070C39A = {
@@ -195,7 +205,7 @@
 				1104D8A01AD6E69C0045BC81 /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				D529D133832FEFC7C96F8801 /* Pods */,
+				8BFEA2A3C6D43EB9E299FE89 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -213,6 +223,8 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1120FC8F1ADDDE370034DDFB /* libPods-ASCIIImage-iOS.a */,
+				1120FC7B1ADDDD560034DDFB /* libPods-ASCIImage-ASCIImage.a */,
 				1104D89E1AD637650045BC81 /* libPods.a */,
 				112998651AD630FF00CFAFDE /* libPods.a */,
 				112998631AD630F000CFAFDE /* libPods-ASCIImage.a */,
@@ -220,8 +232,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				8494755417B6601CADEFEC06 /* libPods-ASCIIImage-iOS.a */,
-				39257CAAF924643073B305AF /* libPods-ASCIImage.a */,
+				72D29854C536E2CECB1F3AB7 /* libPods-ASCIIImage-iOS.a */,
+				9BBAFD3334B8B20266228E67 /* libPods-ASCIImage.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -229,8 +241,8 @@
 		6003F593195388D20070C39A /* ASCIImage */ = {
 			isa = PBXGroup;
 			children = (
-				112997771AD61CC500CFAFDE /* App-iOS */,
-				112997841AD61CC500CFAFDE /* App-OSX */,
+				1120FC931ADDE1760034DDFB /* App-OSX */,
+				1120FC531ADDDB180034DDFB /* App-iOS */,
 			);
 			path = ASCIImage;
 			sourceTree = "<group>";
@@ -245,13 +257,13 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		D529D133832FEFC7C96F8801 /* Pods */ = {
+		8BFEA2A3C6D43EB9E299FE89 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				01623D994116D2F1ADACE37F /* Pods-ASCIIImage-iOS.debug.xcconfig */,
-				2A3B001E45DDA316889907A2 /* Pods-ASCIIImage-iOS.release.xcconfig */,
-				2CEEDA58B3FDF917988B299F /* Pods-ASCIImage.debug.xcconfig */,
-				C2CA2200C071E301E4E6200B /* Pods-ASCIImage.release.xcconfig */,
+				C838657DC51A0460E078E1A5 /* Pods-ASCIIImage-iOS.debug.xcconfig */,
+				4DF47F1F0759B714A49ACBFE /* Pods-ASCIIImage-iOS.release.xcconfig */,
+				80CC167A5A3A40E1A42E8C54 /* Pods-ASCIImage.debug.xcconfig */,
+				E4B1A2C0B96A69ABFC241A56 /* Pods-ASCIImage.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -263,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 112997C41AD61E4900CFAFDE /* Build configuration list for PBXNativeTarget "ASCIImage" */;
 			buildPhases = (
+				E173D448CE5A4CB306DC9347 /* Check Pods Manifest.lock */,
 				112997B71AD61E4900CFAFDE /* Sources */,
 				112997BB1AD61E4900CFAFDE /* Frameworks */,
 				112997BF1AD61E4900CFAFDE /* Resources */,
+				14D3666B303470F989C2EE53 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -280,11 +294,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1129985A1AD61FB100CFAFDE /* Build configuration list for PBXNativeTarget "ASCIImageTests" */;
 			buildPhases = (
-				2777417E71F9E1A755E86759 /* Check Pods Manifest.lock */,
+				D725477D468C245D87396014 /* Check Pods Manifest.lock */,
 				112997CC1AD61FB100CFAFDE /* Sources */,
 				112997CF1AD61FB100CFAFDE /* Frameworks */,
 				112997D31AD61FB100CFAFDE /* Resources */,
-				2EED5E1F2A62EABFAA4B12CC /* Copy Pods Resources */,
+				77B3DFDA3B76E0F11E433BEE /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,9 +314,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ASCIIImage-iOS" */;
 			buildPhases = (
+				599B534531478610950946F7 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				B3AF286AB63DBBCD692CE73E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -317,11 +333,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ASCIIImage-iOSTests" */;
 			buildPhases = (
-				7C2AA6B4FC1890C3162466E2 /* Check Pods Manifest.lock */,
+				81BAA16197C45DA0A30C288C /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				31A4B48A7A8216DE7C97A83B /* Copy Pods Resources */,
+				071398D848809E1D8AE5CE64 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -341,7 +357,7 @@
 			attributes = {
 				CLASSPREFIX = PAR;
 				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = esttorhe;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					112997C91AD61FB100CFAFDE = {
 						TestTargetID = 112997B61AD61E4900CFAFDE;
@@ -377,6 +393,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1120FC9F1ADDE1760034DDFB /* ASCIImage-Info.plist in Resources */,
+				1120FCA11ADDE1760034DDFB /* InfoPlist.strings in Resources */,
+				1120FCA01ADDE1760034DDFB /* Credits.rtf in Resources */,
+				1120FCA21ADDE1760034DDFB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,9 +415,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112998611AD6215000CFAFDE /* LaunchScreen.xib in Resources */,
-				112998621AD6215000CFAFDE /* Main.storyboard in Resources */,
-				112997931AD61CC500CFAFDE /* Images.xcassets in Resources */,
+				1120FC631ADDDB180034DDFB /* Images.xcassets in Resources */,
+				1120FC611ADDDB180034DDFB /* LaunchScreen.xib in Resources */,
+				1120FC621ADDDB180034DDFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,37 +435,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2777417E71F9E1A755E86759 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		2EED5E1F2A62EABFAA4B12CC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		31A4B48A7A8216DE7C97A83B /* Copy Pods Resources */ = {
+		071398D848809E1D8AE5CE64 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -460,7 +450,97 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASCIIImage-iOS/Pods-ASCIIImage-iOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C2AA6B4FC1890C3162466E2 /* Check Pods Manifest.lock */ = {
+		14D3666B303470F989C2EE53 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		599B534531478610950946F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77B3DFDA3B76E0F11E433BEE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASCIImage/Pods-ASCIImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81BAA16197C45DA0A30C288C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B3AF286AB63DBBCD692CE73E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASCIIImage-iOS/Pods-ASCIIImage-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D725477D468C245D87396014 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E173D448CE5A4CB306DC9347 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -482,6 +562,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1120FCA41ADDE1760034DDFB /* PARAppDelegate.m in Sources */,
+				1120FCA31ADDE1760034DDFB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,9 +580,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				112997961AD61CC500CFAFDE /* ViewController.m in Sources */,
-				112997951AD61CC500CFAFDE /* main.m in Sources */,
-				112997901AD61CC500CFAFDE /* AppDelegate.m in Sources */,
+				1120FC661ADDDB180034DDFB /* ViewController.m in Sources */,
+				1120FC651ADDDB180034DDFB /* main.m in Sources */,
+				1120FC601ADDDB180034DDFB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,42 +619,42 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1129977B1AD61CC500CFAFDE /* LaunchScreen.xib */ = {
+		1120FC571ADDDB180034DDFB /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1129977C1AD61CC500CFAFDE /* Base */,
+				1120FC581ADDDB180034DDFB /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
-		1129977D1AD61CC500CFAFDE /* Main.storyboard */ = {
+		1120FC591ADDDB180034DDFB /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1129977E1AD61CC500CFAFDE /* Base */,
+				1120FC5A1ADDDB180034DDFB /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		112997871AD61CC500CFAFDE /* Credits.rtf */ = {
+		1120FC961ADDE1760034DDFB /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				112997881AD61CC500CFAFDE /* en */,
+				1120FC971ADDE1760034DDFB /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		112997891AD61CC500CFAFDE /* InfoPlist.strings */ = {
+		1120FC981ADDE1760034DDFB /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1129978A1AD61CC500CFAFDE /* en */,
+				1120FC991ADDE1760034DDFB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		1129978B1AD61CC500CFAFDE /* MainMenu.xib */ = {
+		1120FC9A1ADDE1760034DDFB /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1129978C1AD61CC500CFAFDE /* en */,
+				1120FC9B1ADDE1760034DDFB /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -582,14 +664,17 @@
 /* Begin XCBuildConfiguration section */
 		112997C51AD61E4900CFAFDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80CC167A5A3A40E1A42E8C54 /* Pods-ASCIImage.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-OSX/ASCIImage-OSX-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/ASCIImage/App-OSX/ASCIImage-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/../App-OSX/ASCIImage-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ASCIImage-ggqqbihzypkwqocjisdpfqscexcx/Build/Products/Debug",
 				);
 				PRODUCT_NAME = ASCIImage;
 				SDKROOT = macosx;
@@ -599,14 +684,17 @@
 		};
 		112997C61AD61E4900CFAFDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B1A2C0B96A69ABFC241A56 /* Pods-ASCIImage.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-OSX/ASCIImage-OSX-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/ASCIImage/App-OSX/ASCIImage-Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/../App-OSX/ASCIImage-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/build/Debug",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/ASCIImage-ggqqbihzypkwqocjisdpfqscexcx/Build/Products/Debug",
 				);
 				PRODUCT_NAME = ASCIImage;
 				SDKROOT = macosx;
@@ -616,7 +704,7 @@
 		};
 		1129985B1AD61FB100CFAFDE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CEEDA58B3FDF917988B299F /* Pods-ASCIImage.debug.xcconfig */;
+			baseConfigurationReference = 80CC167A5A3A40E1A42E8C54 /* Pods-ASCIImage.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
 				CLANG_ENABLE_MODULES = NO;
@@ -629,7 +717,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-OSX/ASCIImage-OSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -649,7 +737,7 @@
 		};
 		1129985C1AD61FB100CFAFDE /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C2CA2200C071E301E4E6200B /* Pods-ASCIImage.release.xcconfig */;
+			baseConfigurationReference = E4B1A2C0B96A69ABFC241A56 /* Pods-ASCIImage.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "";
 				CLANG_ENABLE_MODULES = NO;
@@ -662,7 +750,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-OSX/ASCIImage-OSX-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_WARN_UNDECLARED_SELECTOR = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = NO;
@@ -752,6 +840,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C838657DC51A0460E078E1A5 /* Pods-ASCIIImage-iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -759,8 +848,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-iOS/ASCIImage-iOS-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/ASCIImage/App-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/../App-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
@@ -772,6 +861,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DF47F1F0759B714A49ACBFE /* Pods-ASCIIImage-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
@@ -779,8 +869,8 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-iOS/ASCIImage-iOS-Prefix.pch";
-				INFOPLIST_FILE = "$(SRCROOT)/ASCIImage/App-iOS/Info.plist";
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "$(SRCROOT)/../App-iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
@@ -792,7 +882,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01623D994116D2F1ADACE37F /* Pods-ASCIIImage-iOS.debug.xcconfig */;
+			baseConfigurationReference = C838657DC51A0460E078E1A5 /* Pods-ASCIIImage-iOS.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASCIIImage-iOS.app/ASCIIImage-iOS";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -803,7 +893,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-iOS/ASCIImage-iOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -822,7 +912,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A3B001E45DDA316889907A2 /* Pods-ASCIIImage-iOS.release.xcconfig */;
+			baseConfigurationReference = 4DF47F1F0759B714A49ACBFE /* Pods-ASCIIImage-iOS.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ASCIIImage-iOS.app/ASCIIImage-iOS";
 				CLANG_WARN_UNREACHABLE_CODE = YES;
@@ -833,7 +923,7 @@
 					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ASCIImage/App-iOS/ASCIImage-iOS-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "../Tests/iOS-Tests-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks $(inherited) @loader_path/Frameworks";
