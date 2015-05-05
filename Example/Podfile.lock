@@ -1,0 +1,14 @@
+PODS:
+  - ASCIImage (1.0.0)
+
+DEPENDENCIES:
+  - ASCIImage (from `../`)
+
+EXTERNAL SOURCES:
+  ASCIImage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ASCIImage: bcff9650deae86e0e0ac310145cc628948201ab8
+
+COCOAPODS: 0.36.3

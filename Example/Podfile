@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+# Define the pod here since it will be reused
+def import_pods
+  pod "ASCIImage", :path => "../"
+end
+
+# Configure the iOS target and link against its tests
+target 'ASCIIImage-iOS' do
+  platform :ios, '8.1'
+  link_with 'ASCIIImage-iOSTests', 'ASCIIImage-iOS'
+  import_pods
+end
+
+# Configure the OSX target and link against its tests
+target 'ASCIImage' do
+  platform :osx, '10.9'
+  link_with 'ASCIImageTests', 'ASCIImage'
+  import_pods
+end

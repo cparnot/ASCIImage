@@ -9,7 +9,6 @@
 #import "PARTestCase.h"
 #import "PARImage+ASCIIInput.h"
 
-
 @interface ASCIImageTests : PARTestCase
 @end
 

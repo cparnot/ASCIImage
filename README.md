@@ -1,5 +1,10 @@
 # ASCIImage
 
+[![CI Status](http://img.shields.io/travis/esttorhe/ASCIImage.svg?style=flat)](https://travis-ci.org/esttorhe/ASCIImage)
+[![Version](https://img.shields.io/cocoapods/v/ASCIImage.svg?style=flat)](http://cocoapods.org/pods/ASCIImage)
+[![License](https://img.shields.io/cocoapods/l/ASCIImage.svg?style=flat)](http://cocoapods.org/pods/ASCIImage)
+[![Platform](https://img.shields.io/cocoapods/p/ASCIImage.svg?style=flat)](http://cocoapods.org/pods/ASCIImage)
+
 **Create UIImage / NSImage instances from NSString, by combining ASCII art and Kindergarten skills.**
 
 ## Useful links
@@ -34,8 +39,16 @@ For now, I only know of [Findings](http://findingsapp.com) (disclaimer: I, the a
 
 Sigh.
 
-
 ## Documentation
+
+### Installation
+
+ASCIImage is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "ASCIImage"
+```
 
 #### Characters and Pixels
 
@@ -213,3 +226,11 @@ And here are the keys for the dictionary context:
     extern NSString * const ASCIIContextShouldAntialias;
 
 Note that some of these options are in fact applied to the Bezier paths (line width, should close), while others are applied to the actual graphic context. The antialiasing option can alter both. ASCIImage is doing a few things behind the scenes to keep the illusion going.
+
+## Author
+
+cparnot, charles.parnot@gmail.com
+
+## License
+
+ASCIImage is available under the MIT license. See the LICENSE file for more info.
